@@ -1,0 +1,14 @@
+fastapi[all]        # FastAPI framework with all optional dependencies
+uvicorn[standard]   # ASGI server for FastAPI
+python-multipart    # For handling file uploads
+sqlalchemy          # SQLAlchemy ORM
+psycopg2-binary     # PostgreSQL database adapter
+passlib[bcrypt]     # Password hashing library with bcrypt support
+bcrypt              # Additional bcrypt support for password hashing
+pyjwt               # JSON Web Token implementation
+pydantic            # Data validation and settings management
+reportLab           # PDF generation library
+python-dotenv       # For loading environment variables from .env files
+alembic             # Database migrations tool
+pytest              # Testing framework
+httpx               # HTTP client for testing
